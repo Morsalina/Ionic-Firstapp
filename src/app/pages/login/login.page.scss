@@ -1,0 +1,52 @@
+.card-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* In your CSS or SCSS file */
+.card-container {
+    min-height: 100vh; /* Set a minimum height to ensure the card doesn't move */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 23px;
+    color: rgb(225, 188, 233);
+}
+
+.forgot{
+    text-transform: initial;
+    //--background-hover: #9ce0be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.login-text {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically within the container */
+    justify-content: center; /* Center items horizontally within the container */
+  }
+
+  .custom-button{
+    text-transform: initial;
+    padding-left: 0px;
+    --color: rgb(4, 100, 117);
+  }
+  
+
+  ion-content{
+    --background: rgb(225, 188, 233);
+   }
+
+  

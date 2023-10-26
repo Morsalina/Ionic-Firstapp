@@ -1,0 +1,74 @@
+<ion-content>
+
+  <div class="welcome-text">
+   <p> Welcome to the land of food, to be able to order please complete the registration process</p>
+  </div>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        Basic Information
+      </ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-item>
+        <ion-input label="Username" type="text" labelPlacement="floating" placeholder="Enter Your name"></ion-input>
+      </ion-item>
+
+      <ion-radio-group>
+        <ion-list-header>
+          <ion-label class="gen">
+            Gender
+          </ion-label>
+        </ion-list-header>
+        
+        <div class="gen-option"> 
+          <ion-radio value="male" labelPlacement="end">Male</ion-radio> <br/>
+          <ion-radio value="female" labelPlacement="end">Female</ion-radio><br />
+          <ion-radio value="other" labelPlacement="end">Other</ion-radio>
+
+        </div>
+        </ion-radio-group>
+
+        <ion-item>
+          <ion-input label="Age" type="number" labelPlacement="floating" placeholder="Enter Your age"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-input label="Phone Number" type="number" labelPlacement="floating" placeholder="Enter Your phone number"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-input label="Password" type="password" labelPlacement="floating" placeholder="Enter password for your account"></ion-input>
+        </ion-item>
+
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        Address Information
+      </ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-item>
+        <ion-input label="Country" type="text" labelPlacement="floating" placeholder="Enter Your country name"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input label="State" type="text" labelPlacement="floating" placeholder="Enter Your state name"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-input label="Zip-code" type="number" labelPlacement="floating" placeholder="Enter zip code"></ion-input>
+      </ion-item>
+
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button class="reg-button" size="full"> Submit </ion-button>
+ 
+</ion-content>

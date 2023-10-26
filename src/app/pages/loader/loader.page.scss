@@ -1,0 +1,27 @@
+.text{
+    display: flex;
+    text-align: center;
+    font-size: medium;
+    color: blue;
+    justify-content: center;
+    height: 50%;
+    align-items: center;
+    font-weight: bold;
+}
+
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.progress1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}

@@ -1,0 +1,31 @@
+.welcome-text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p{
+    color: rgb(103, 8, 158);
+    font-weight: 600;
+}
+
+.gen{
+    font-size: 16px;
+}
+
+.gen-option{
+    padding-left: 18px;
+}
+
+.reg-button{
+    size: full;
+    margin: 15px;
+}
+
+ion-content{
+ --background: rgb(225, 188, 233);
+}
